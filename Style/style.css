@@ -1,0 +1,198 @@
+.h1, h2, h3, h4, h5, h6, p, a, span, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    transition: all ease-in-out 0.3s;
+}
+
+:root {
+    --primary-blue: #01208E;
+    --secondary-orange: #FE7400;
+    --light-orange: #FD8D2f;
+    --primary-gray: #717070;
+    --primary-white: #FFFFFF;
+
+    --primary-font: "Rubik", sans-serif;
+    --heading-font: "Yeseva One", serif;
+}
+
+body {
+    font-family: var(--primary-font);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+}
+
+/* Navbar css start */
+.top-nav {
+    background-color: var(--primary-blue);
+    color: var(--primary-white); 
+     --primary-font: "Rubik", sans-serif;
+    
+}
+
+.wellcome-text {
+    font-size: 14px;
+     font-weight: 500;
+}
+.top-nav a {
+    color: var(--primary-white);
+    text-decoration: none;
+    background-color: var(--light-orange);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.top-nav a:hover{
+    background-color: var(--secondary-orange);
+}
+.topbar-contact {
+    
+}
+
+.top-nav a {
+    color: var(--primary-white);
+}
+
+/* Navbar css end */
+
+.img-fluid{
+    margin-left: 30px;
+}
+
+.nav-link{
+     font-family: var(--primary-font);
+     font-weight: 400;
+     font-size: 14px;
+     margin: 0 8px;
+}
+.nav-link:hover{
+    color: var(--secondary-orange)!important;
+}
+.btn-apply{
+    padding:  10px 20px;
+    color: #6C3200;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: var(--primary-font);
+    background: linear-gradient(98.85deg, #FF8117 3.23%, #FFB06D 98.88%);
+    border-radius: 5px;
+    margin:  auto 0;
+    
+}
+.btn-apply:hover{
+   box-shadow: 0px 14px 24px 0px #00000030;
+   color:var(--primary-white)
+}
+
+
+/* Banner section css start */
+#banner {
+    background: url('/Asset/bannear-Image-2.png');
+      background-position: center;
+      background-size: cover;
+     background-repeat: no-repeat;
+}
+
+.banner-content{
+    padding: 100px 0;
+  
+}
+.banner-content h1{
+    color: var(--primary-white);
+    font-size:60px;
+    font-weight: 400;
+    font-family: var(--primary-font);
+    padding: 0 20%;
+}
+.banner-content p {
+    color: var(--primary-white);
+    font-size: 26px;
+    font-weight: 400;
+    margin: 20px 0;
+    font-family: var(--primary-font);
+}
+/* Banner section css end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.h1, h2, h3, h4, h5, h6, p, a, span,ul,li{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{
+    --primary-blue: #01208E;
+    --secondary-orange: #FE7400;
+    --light-orange: #FD8D2f;
+    --primary-gray: #717070;
+    --primary-white: #FFFFFF;
+
+     font-family: "Rubik", sans-serif;
+      font-family: "Yeseva One", serif;
+    
+}
+body {
+    font-family: var(--primary-font);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+}
+
+
+
+
+.top-nav{
+    background-color: var(--primary-blue);
+    color: var(--primary-white); 
+}
+
+.topbar-contact{
+    
+    background-color: var(--light-orange);
+}
+.top-nav a {
+    color: var(--primary-white);
+   
+} */
+
+/* Navbar css end */
