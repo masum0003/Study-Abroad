@@ -20,6 +20,7 @@
 
     --primary-font: "Rubik", sans-serif;
     --heading-font: "Yeseva One", serif;
+    --robboto-font:  "Roboto", sans-serif;
 }
 
 body {
@@ -273,6 +274,38 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* Service part css endd */
 
+/* Wellcome Content start */
+#wellcome{
+    background-color: #EFF3FF;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.wellcome-content h6{
+    color: var(--light-orange);
+    font-family: var(--robboto-font);
+    font-size: 26px;
+    font-weight: 400;
+}
+.wellcome-content h4{
+    color: var(--primary-blue);
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 36px;
+}
+.wellcome-content h5{
+    color: #444444;
+    font-family: var(--primary-font);
+    font-weight: 300;
+    font-size: 30px;
+}
+.wellcome-content p {
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+/* Wellcome Content end */
 
 
 
