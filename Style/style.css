@@ -188,7 +188,15 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     margin-bottom: 60px;
 }
-
+.heading span {
+    font-family: var(--robboto-font);
+    font-weight: 400;
+    font-size: 26px;
+    color: var(--light-orange);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    line-height: 50px;
+}
 .ser-icon-1{
     background: linear-gradient(180deg, rgba(255, 176, 109, 0.9) 0%, rgba(192, 6, 6, 0.9) 100%);
     border-radius: 50%;
@@ -306,6 +314,38 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 24px;
 }
 /* Wellcome Content end */
+
+/* Study card start */
+    .study-card{
+        border: none !important;
+        background-color: #F9F9F9 !important;
+        margin: 0 auto !important;
+
+    }
+    .study-card h5{
+        font-family: var(--primary-font);
+        font-weight: 500;
+        font-size: 20px;
+        color: var(--primary-blue);
+    }
+    .study-card p{
+        font-family: var(--primary-font);
+        font-weight: 300;
+        font-size: 16px;
+        color: var(--primary-gray);
+    }
+
+    .study-card h6{
+        font-family: var(--primary-font);
+        font-weight: 400;
+        font-size: 16px;
+        color: #FE7400;
+    }
+    
+    .study-card h6 {
+
+    }
+/* Study card end */
 
 
 
