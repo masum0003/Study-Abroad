@@ -99,11 +99,12 @@ h1, h2, h3, h4, h5, h6 {
       background-position: center;
       background-size: cover;
      background-repeat: no-repeat;
+      position: relative;
     
 }
 
 #banner .container{
-    position: relative;
+   
 }
 
 .banner-content{
@@ -116,6 +117,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
     font-family: var(--primary-font);
     padding: 0 20%;
+    --webkit-text-shadow: 5px 2px 4px 0px #00000066;
 }
 .banner-content p {
     color: var(--primary-white);
@@ -134,9 +136,9 @@ h1, h2, h3, h4, h5, h6 {
     padding: 40px 40px;
     position: absolute;
     bottom: 0;
-    width: 80%;
+    /* width: 80%; */
     left: 50%;
-    transform: translateX(-50% ,50%);
+    transform: translate(-50% ,50%);
    
     
 }
@@ -171,6 +173,105 @@ h1, h2, h3, h4, h5, h6 {
    color:var(--primary-white)
 }
 /* Banner section css end */
+
+/* Service part css start */
+#Service {
+    margin-top: 100px;
+
+}
+.heading{
+    font-size: 36px;
+    font-weight: 500;
+    font-family: var(--primary-font);
+    color: var(--primary-blue);
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.ser-icon-1{
+    background: linear-gradient(180deg, rgba(255, 176, 109, 0.9) 0%, rgba(192, 6, 6, 0.9) 100%);
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+     border: 1px solid #FF8C2C;
+     backdrop-filter: blur(84px);
+    box-shadow: 0px 24px 44px 0px #FF5C004A;
+}
+.ser-icon-2{
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    backdrop-filter: blur(84px);
+    box-shadow: 0px 24px 44px 0px #0038FF4A;
+    border: 1px solid #9CB2FF;
+    background: linear-gradient(180deg, rgba(0, 240, 255, 0.9) 0%, rgba(0, 56, 255, 0.9) 100%);     
+}
+
+.ser-icon-3{  
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;backdrop-filter: blur(84px);
+    box-shadow: 0px 24px 44px 0px #46FF424A;
+    border: 1px solid #02A460;
+    background: linear-gradient(180deg, rgba(0, 197, 114, 0.9) 0%, rgba(0, 66, 3, 0.9) 100%);
+}
+.ser-icon-4{
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    backdrop-filter: blur(84px);
+    box-shadow: 0px 24px 44px 0px #FA00FF4A;
+    border: 1px solid #E85AFF;
+    background: linear-gradient(180deg, rgba(213, 123, 255, 0.9) 0%, rgba(105, 0, 154, 0.9) 100%);
+
+
+}
+.ser-icon-5{
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    backdrop-filter: blur(84px);
+    box-shadow: 0px 24px 44px 0px #FF005C4A;
+    border: 1px solid #FF4F4F;
+    background: linear-gradient(180deg, rgba(249, 24, 24, 0.9) 0%, rgba(106, 5, 5, 0.9) 100%);
+
+
+}
+.ser-icon-6{
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    backdrop-filter: blur(84px);
+    box-shadow: 0px 24px 44px 0px #3A3A394A;
+    border: 1px solid #757575;
+    background: linear-gradient(180deg, rgba(114, 114, 114, 0.9) 0%, rgba(4, 4, 4, 0.9) 100%);
+
+
+}
+
+
+.serv-content h5{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: var(--primary-font);
+    color: var(--primary-blue);
+}
+.serv-content p {
+    font-size: 14px;
+    font-weight: 300;
+    font-family: var(--primary-font);
+    color: var(--primary-gray);
+}
+.service-main{
+    box-shadow: 0px 24px 34px 0px #0000000A;
+    backdrop-filter: blur(74px);
+    border: 1px solid #E5E4E4;
+    border-radius: 5px;
+    padding: 10px 15px;
+    
+
+}
+/* Service part css endd */
 
 
 
