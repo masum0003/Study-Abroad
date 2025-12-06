@@ -351,6 +351,115 @@ h1, h2, h3, h4, h5, h6 {
     }
 /* Study card end */
 
+/* Support section css start */
+#support{
+    background: url('../Asset/background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+    padding: 100px 0;
+}
+.support-form{
+    background-color: #F9F9F9;
+    box-shadow: 0px 44px 64px 0px #00000021;
+    backdrop-filter: blur(74px);
+    padding: 60px 40px;
+    border-radius: 5px;
+}
+.support-form h4 {
+    font-family: var(--robboto-font);
+    font-size: 26px;
+    font-weight: 400;
+    color: var(--light-orange);
+}
+.support-form h5 {
+    font-family: var(--primary-font);
+    font-size: 36px;
+    font-weight: 400;
+    color: var(--primary-blue);
+}
+.support-form form input {
+    width: 100%;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: #F2F2F2;
+    border: none;
+}
+.support-form form input::placeholder{
+    font-family: var(--primary-font);
+    font-size: 15px;
+    font-weight: 300;
+    color: #BBBBBB;
+}
+.support-form form input:focus{
+    outline: none;
+    color: black;
+}
+.support-form select {
+    width: 100%;
+    font-family: var(--primary-font);
+    font-size: 15px;
+    font-weight: 300px;
+    color: #BBBBBB;
+    background-color: #F2F2F2;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+  
+}
+
+
+.support-form select:focus{
+    outline: none;
+}
+.support-form textarea{
+     width: 100%;
+    font-family: var(--primary-font);
+    font-size: 15px;
+    font-weight: 300px;
+    color: black;
+    background-color: #F2F2F2;
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 15px;
+    min-height: 200px;
+    resize: none;
+}
+.support-form textarea::placeholder{
+    font-family: var(--primary-font);
+    font-size: 15px;
+    font-weight: 300;
+    color: #BBBBBB;
+    margin-top: 25%;
+    margin-left: 25%;
+}
+.support-form textarea:focus{
+    outline: none;
+}
+
+.support-form form button {
+  background: linear-gradient(90deg, #FF851E 3.55%, #FFAC66 95.48%);
+  font-size: 16px;
+  font-weight: 500;
+  font-weight: var(--primary-font);
+  color: #6C3200;
+  padding: 20px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  
+}
+
+.support-form form button:hover{
+    color: white;
+    background: linear-gradient(270deg, #FF851E 3.55%, #FFAC66 95.48%);
+}
+
+/* Support section css end */
 
 
 
