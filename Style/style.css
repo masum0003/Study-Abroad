@@ -459,6 +459,27 @@ h1, h2, h3, h4, h5, h6 {
     background: linear-gradient(270deg, #FF851E 3.55%, #FFAC66 95.48%);
 }
 
+.support-container{
+    padding: 14%;
+}
+.support-container h4{
+    font-family: var(--primary-font);
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--primary-blue);
+}
+.support-container p{
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--primary-gray);
+}
+.support-icon{
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(180deg, #FF8014 0%, #FFA152 100%);
+    border-radius: 5px;
+}
 /* Support section css end */
 
 
