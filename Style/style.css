@@ -326,7 +326,7 @@ h1, h2, h3, h4, h5, h6 {
         box-shadow: 0px 24px 34px 0px #0000000D;
         background-color: #F9F9F9 ;
     }
-    .study-card h5{
+    .study-card .study-title{
         font-family: var(--primary-font);
         font-weight: 500;
         font-size: 20px;
@@ -484,6 +484,10 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Student Review Start */
 
+#review{
+    padding-bottom: 80px;
+}
+
 .review-image img {
     margin-left: 0;
     border-radius: 100%;
@@ -540,9 +544,137 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* Student Review End */
 
+/* Blog part css start */
+#blog{
+     background: url('../Asset/background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    
+}
 
+.blog-title{
+    font-family: var(--primary-font);
+    font-size: 20px;
+    font-weight: 400;
+    color: #222222;
+}
+.date{
+    font-family: var(--primary-font);
+    font-size: 14px;
+    font-weight: 300;
+    color: #939393;
+}
+.post-btn{
+    padding: 20px 30px;
+    background: linear-gradient(98.85deg, #FF8117 3.23%, #FFB06D 98.88%);
+    color: #6C3200;
+    box-shadow: 0px 14px 24px 0px #00000030;
+    outline: none;
+    border-radius: 3px;
+    border: none;
+    font-family: var(--primary-font);
+    font-size: 14px;
+    font-weight: 500;
+}
+.post-btn:hover{
+    color: white;
+    background: linear-gradient(278.85deg, #FF8117 3.23%, #FFB06D 98.88%);
+}
+/* Blog part css end */
 
+/* Foooter part css start */
+footer{
+    margin-top: 200px;
+    
+     background: url('../Asset/background.png');
+     background-color: #EFF3FF;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer-wrap{
+    position: relative;
+    padding: 250px 0 50px;
+}
+.footer-box{
+    
+    background: url("../Asset/footer-box.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0; 
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* transform: translateX(-50%); */
+    padding: 80px 120px;
+    border-radius: 20px 20px 60px 0;
+}
 
+.footer-box-content{
+    margin-left: 80px;
+}
+.footer-box-btn{
+    margin-right: 100px;
+    padding: 50px;
+}
+.footer-box-btn button{
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px 40px;
+    background: linear-gradient(98.85deg, #FF8117 3.23%, #FFB06D 98.88%);
+    color: #6C3200;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 14px 24px 0px #00000030;
+}
+
+.footer-box-btn button:hover{
+    color: white;
+    background: linear-gradient(278.85deg, #FF8117 3.23%, #FFB06D 98.88%);
+}
+.footer-box-content h4{
+    font-family: var(--primary-font);
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--primary-white);
+    
+}
+.footer-box-content p {
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--primary-white);
+}
+
+.footer-c-heading{
+     font-family: var(--primary-font);
+    font-size: 20px;
+    font-weight: 500;
+    color: #222222;
+    padding-bottom: 30px;
+}
+
+.footer-icon{
+    width: 50px;
+    height: 50px;
+    color: #FFFFFF;
+    font-size: 30px;
+    background: linear-gradient(180deg, #FF8014 0%, #FFA152 100%);
+    border-radius: 5px;
+}
+
+.footer-icon-text p{
+    font-family: var(--primary-font);
+    font-size: 14px;
+    font-weight: 300;
+    color: #444444;
+   
+}
+/* Foooter part css end */
 
 
 
