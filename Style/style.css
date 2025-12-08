@@ -482,6 +482,64 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* Support section css end */
 
+/* Student Review Start */
+
+.review-image img {
+    margin-left: 0;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    border: 5px solid #FFFFFF;
+    box-shadow: 0px 14px 24px 0px #00000026;
+
+}
+
+/* .review-info {
+   margin: 0;
+   padding: 0;
+} */
+
+.review-info h5{
+    font-family: var(--primary-font);
+    font-size: 20px;
+    font-weight: 400;
+    color: #222222;
+}
+
+.review-info h6{
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.review-info ul {
+  padding-left: 0;
+  margin: 0;
+}
+
+.review-info ul li {
+    display: inline-block;
+    color: #FE7400;
+    font-size: 16px;
+    margin-right: 2px;
+}
+
+.review-content p {
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-weight: 300;
+    color: #828282; 
+    letter-spacing: 0.5px;
+}
+.review-card{
+    padding: 30px 25px;
+    border: 1px solid #EDEDED;
+    box-shadow: 0px 14px 74px 0px #0000000F;
+    margin-bottom: 10px;
+
+}
+/* Student Review End */
+
 
 
 
